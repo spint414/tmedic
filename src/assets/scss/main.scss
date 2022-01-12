@@ -1,0 +1,36 @@
+@import "../font/font.scss";
+@import "./mixin.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: "SVN-Gilroy";
+  font-weight: 500 !important;
+  color: #7b7b7b;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+}
+
+p {
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+.container-1200 {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
