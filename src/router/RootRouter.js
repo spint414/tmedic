@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { ScrollToTop } from "../hooks";
-
+import "./style.scss"
 const RootRouter = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <h2>new</h2>
+      <h2 className="new">new</h2>
 
       {/* <Switch>
         <Route exact path={paths.trang_chu} component={Home} />
