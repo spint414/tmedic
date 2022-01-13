@@ -1,9 +1,14 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { paths } from "../constants";
 import Home from "../page/home/Home";
+import Doctor from "../page/doctor/Doctor";
+import Spec from "../page/spec/Spec";
+import HDKH from "../page/hdkh/HDKH";
+
 import { Nav, Footer } from "../layout/layout";
 
 import { ScrollToTop } from "../hooks";
+
 import "./style.scss";
 const RootRouter = () => {
   return (
@@ -12,6 +17,9 @@ const RootRouter = () => {
       <Nav></Nav>
       <Switch>
         <Route exact path={paths.trang_chu} component={Home} />
+        <Route exact path={paths.bsi} component={Doctor} />
+        <Route exact path={paths.chuyenkhoa} component={Spec} />
+        <Route exact path={paths.hdkh} component={HDKH} />
         {/* <Route exact path={paths.ve_chung_toi} component={About} />
         <Route exact path={paths.cong_nghe} component={Technology} />
         <Route exact path={paths.tin_tuc} component={News} />

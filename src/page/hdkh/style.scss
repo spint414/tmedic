@@ -1,0 +1,61 @@
+.hdkhBanner {
+  width: 100%;
+  height: 350px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hdkhContent {
+  padding-top: 56px;
+
+  .hdkhContent-section {
+    h2 {
+      padding-bottom: 14px;
+      border-bottom: 1px solid;
+      border-image: linear-gradient(
+          to right,
+          rgb(0, 147, 69) 16%,
+          rgb(206, 206, 206) 5%
+        )
+        5;
+      font-size: 29px;
+      color: rgb(0, 147, 69);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .hdkhContent-section-picture {
+      padding: 80px 90px 90px 90px;
+        img {
+          width: 100%;
+        }
+    }
+
+    .hdkhContent-section-text {
+      padding: 60px 60px 100px 60px;
+      p {
+        font-size: 16px;
+        color: rgb(32, 32, 32);
+        line-height: 1.5;    
+      }
+    }
+
+    .hdkhContent-section-list {
+      padding: 40px 35px;
+      ol {
+        list-style-type: decimal;
+        list-style-position: inside;
+        padding: 0;
+      }
+
+      li {
+        font-size: 16px;
+        color: rgb(32, 32, 32);
+        line-height: 1.5;     
+      }
+    }
+  }
+}

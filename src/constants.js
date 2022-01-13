@@ -1,7 +1,8 @@
 export const paths = {
   trang_chu: "/",
-  gioi_thieu: "/gioi_thieu",
-  dichvu_chuyenkhoa: "/dichvu_chuyenkhoa",
+  bsi: "/bsi",
+  hdkh: "/hdkh",
+  chuyenkhoa: "/chuyenkhoa",
   doingu_bacsi: "/doingu_bacsi",
   tintuc_uudai: "/tintuc_uudai",
   huongdan_khachhang: "/huongdan_khachhang",
